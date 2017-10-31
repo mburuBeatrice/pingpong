@@ -1,15 +1,17 @@
 <!DOCTYPE>
 <html>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="images/fonts/beauty/stylesheet.css" type="text/css">
+<link rel="stylesheet" href="images/fonts/caviar/stylesheet.css" type="text/css">
 <title>Ping Pong</title>
 
 <body>
 
   <h1>Ping Pong</h1>
-  <h2>Let's Play</h2>
-  <h3>Rules:</h3>
+  <div class="rules">
+  <h2><strong>Let's Play</strong></h2>
+  <h2><strong>Rules:</strong></h2>
   <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
   <ol>
     <li>Number divisible by 3 become "ping".</li>
@@ -21,8 +23,8 @@
 
     <div class="form-group">
       <label for="number">Type number here</label>
-      <input type="number" class="form-control" id="num" maxlength="10" style="5px">
-      <button type="submit" class="btn btn-default" id="butt">PingPong</button>
+      <input type="number" name="form-control" id="num">
+      <button type="submit" class="btn" id="butt">PingPong</button>
       <small id="warning" style="color:red;"></small>
     </div>
   </form>
@@ -30,6 +32,18 @@
     <h2>Results</h2>
     <ul id="results">
 
+    </ul>
+  </div>
+</div>
+  <div class="about">
+    <h2>About Ping Pong</h2>
+    <ul>
+      <li>Created by:</li>
+      <li>Beatrice Mburu</li>
+      <li>Github Username/url</li>
+        <li>mburuBeatrice</li>
+          <li>Level 2 text for:</li>
+          <li>Java</li>
     </ul>
   </div>
 

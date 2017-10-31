@@ -1,5 +1,32 @@
-body{
+body {
   background-image: url(../images/pingpong1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: caviar_dreamsitalic, monospace;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+h1 {
+  text-align: center;
+  font-family: beautyregular, monospace;
+  font-size: 150px;
+}
+
+.rules {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: span 3;
+
+}
+
+.about {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 2;
+  grid-row-end: span 3;
+  width: 30%;
 }
