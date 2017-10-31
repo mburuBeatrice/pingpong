@@ -1,4 +1,5 @@
 body{
-    background-image: url(images/pingpong.jpg);
-    background-color: #FFFFFF;
+  background-image: url(../images/pingpong1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
