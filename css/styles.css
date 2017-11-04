@@ -1,32 +1,47 @@
-body {
-  background-image: url(../images/pingpong1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: caviar_dreamsitalic, monospace;
-  font-size: 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+
+/*arrow*/
+/*
+.arrow-right {
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+}*/
+.arrow-left{
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid #504541;
+    float: left;
+}
+.allow-left:hover{
+	    width: 0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+	border-right: 100px solid #ca491a;
+	float: left;
+}
+.rectangles{
+	background-color: #128c54;
+    width: 300PX;
+    height: 140px;
+    float: left;
+    margin-top: 28px;
+}
+h1#play{
+	    text-align: center;
+    color: white;
+    font-family: inherit;
+    line-height: 2.5;
 }
 
-h1 {
-  text-align: center;
-  font-family: beautyregular, monospace;
-  font-size: 150px;
-}
-
-.rules {
-  grid-column-start: 1;
-  grid-column-end: span 2;
-  grid-row-start: 2;
-  grid-row-end: span 3;
-
-}
-
-.about {
-  grid-column-start: 2;
-  grid-column-end: span 3;
-  grid-row-start: 2;
-  grid-row-end: span 3;
-  width: 30%;
+div.rules{
+	    margin: 20px;
+    width: 395px;
+    background-color: #bfc7c5;
+    padding: 20px;
+        margin-left: 414px;
 }

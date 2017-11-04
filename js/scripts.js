@@ -4,6 +4,14 @@ $(document).ready(function(){
    var form = $("form#form");
    var warning =$("small#warning");
    var ulresults =$("ul#results");
+
+   $(".rules").hide();
+   $(".arrow-left").click(function() {
+     /* Act on the event */
+     $(".rules").toggle("slow");
+   });
+
+
   $("#num").click(function(){
     $(this).val("");
     warning.text("");

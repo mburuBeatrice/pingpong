@@ -7,46 +7,56 @@
 <title>Ping Pong</title>
 
 <body>
+	<div class="container">
+     <h1 class="text-center">Ping Pong</h1>
+    <div class="row col-md-6 col-md-offset-3" style="margin-top: 25px;">
+          <div class="arrow-left">
+              
+          </div>
 
-  <h1>Ping Pong</h1>
-  <div class="rules">
-  <h2><strong>Let's Play</strong></h2>
-  <h2><strong>Rules:</strong></h2>
-  <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
-  <ol>
-    <li>Number divisible by 3 become "ping".</li>
-    <li>Number divisible by 5 become "pong"</li>
-    <li>Number divisible by 3 and 5 become "pingpong"</li>
-  </ol>
-  <p><strong>Enter your number here</strong></p>
-  <form id="form">
-
-    <div class="form-group">
-      <label for="number">Type number here</label>
-      <input type="number" name="form-control" id="num">
-      <button type="submit" class="btn" id="butt">PingPong</button>
-      <small id="warning" style="color:red;"></small>
+          <div class="rectangles">
+            <h1 id="play">Let's Play</h1>
+            
+          </div>
+          <!-- <div class="arrow-right col-md-2">
+            
+          </div> -->
     </div>
-  </form>
-  <div class="booya">
-    <h2>Results</h2>
-    <ul id="results">
 
-    </ul>
-  </div>
-</div>
-  <div class="about">
-    <h2>About Ping Pong</h2>
-    <ul>
-      <li>Created by:</li>
-      <li>Beatrice Mburu</li>
-      <li>Github Username/url</li>
-        <li>mburuBeatrice</li>
-          <li>Level 2 text for:</li>
-          <li>Java</li>
-    </ul>
+		
+	</div>
+ 
+  <div class="rules">
+        <h2 style="padding-top: 0px; margin-top: 0px;"><strong>Rules:</strong></h2>
+        <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Number divisible by 3 become "ping".</li>
+          <li>Number divisible by 5 become "pong"</li>
+          <li>Number divisible by 3 and 5 become "pingpong"</li>
+        </ol>
+        <p>
   </div>
 
+    <div  class="container">
+        
+        <form id="form">
+
+          <div class="form-group" style=" width: 50%;  margin: 0px auto;">
+            <strong>Enter your number here</strong></p>
+            <label for="number">Type number here</label>
+            <input type="number" name="form-control" id="num">
+            <button type="submit" class="btn" id="butt">PingPong</button>
+            <small id="warning" style="color:red;"></small>
+          </div>
+        </form>
+      <div class="booya">
+        <h2>Results</h2>
+        <ul id="results">
+
+        </ul>
+      </div>
+    </div>
+  </div>
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
