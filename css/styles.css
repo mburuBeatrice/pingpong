@@ -24,14 +24,6 @@
 	border-right: 100px solid #ca491a;
 	float: left;
 }
-.rectangles{
-	background-color: #128c54;
-    width: 300PX;
-    height: 140px;
-    float: left;
-    margin-top: 28px;
-   
-}
 
 h1#play{
 	    text-align: center;
@@ -50,4 +42,7 @@ div.rules{
 .text-center{
 	font-family: 'Pacifico', cursive;
 	text-size:100px;
+}
+#card-circle{
+  border: solid 2px red ;
 }
