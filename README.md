@@ -1,20 +1,20 @@
-#Ping Pong Game
+# Ping Pong Game
 
-##By Beatrice Mburu
+## By Beatrice Mburu
 
-###Description
+### Description
 
 This is a game that allow the user to enter a number then outputs a range of numbers from 1 to the entered number with the exception of number divisible by 3,5 and 15 returned as ping, pong and ping-pong respect.
 
-###Technologies Used
+### Technologies Used
 
 This project uses major technologies which are :HTML5/css , Bootstrap and Javascript/Jquery
 
-###Support and contact details
+### Support and contact details
 
 In case You have any issues using this code please do no hesitate to get in touch with me through shishnjonjo@gmail.com.
 
-###License
+### License
 
 *MIT License
 
