@@ -8,7 +8,10 @@ This is a game that allow the user to enter a number then outputs a range of num
 
 ### Technologies Used
 
-This project uses major technologies which are :HTML5/css , Bootstrap and Javascript/Jquery
+This project uses major technologies which are :
+1.HTML5/css
+2.Bootstrap
+3.Javascript/Jquery
 
 ### Support and contact details
 
