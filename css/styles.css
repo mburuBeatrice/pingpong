@@ -30,7 +30,9 @@
     height: 140px;
     float: left;
     margin-top: 28px;
+   
 }
+
 h1#play{
 	    text-align: center;
     color: white;
@@ -44,4 +46,8 @@ div.rules{
     background-color: #bfc7c5;
     padding: 20px;
         margin-left: 414px;
+}
+.text-center{
+	font-family: 'Pacifico', cursive;
+	text-size:100px;
 }

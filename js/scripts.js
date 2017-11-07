@@ -1,13 +1,15 @@
 $(document).ready(function(){
+
    var  store =[];
    var index;
    var form = $("form#form");
    var warning =$("small#warning");
    var ulresults =$("ul#results");
 
+
    $(".rules").hide();
    $(".arrow-left").click(function() {
-     /* Act on the event */
+
      $(".rules").toggle("slow");
    });
 
@@ -25,7 +27,7 @@ $(document).ready(function(){
         store.push(index);
         ulresults.prepend("<li>"+game(store[index])+"</li>");
       }
-      // warning.html(store.toString());
+
 
 
 
@@ -44,7 +46,7 @@ $(document).ready(function(){
     }else if (num%3===0) {
       return "ping";
     }else{
-      return num;  // warning.html(store.toString());
+      return num;
     }
   }
 });
